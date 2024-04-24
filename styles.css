@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(250, 231, 237);
+    color:rgb(44, 3, 37);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+h6 {
+  font-weight: bold;
+}
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+header {
+    background: rgb(230, 190, 195);
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card {
+    height: 100%;
+    background-color: rgb(255, 214, 219);
+    color:rgb(44, 3, 37);
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    object-fit: contain; 
+      height: 400px;
+      width: 100%;
+  }
+  .card-title {
+    color:rgb(29, 1, 10);
+    font-size: 25px;
+}
+.card-text {
+    font-size: 15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  .card-group .card {
+    flex: 1 0 0;
+  }
